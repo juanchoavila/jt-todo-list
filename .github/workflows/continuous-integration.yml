@@ -1,0 +1,7 @@
+name: continuous-integration
+run-name: continuous-integration
+on: pull_request
+jobs:
+  check-unit-tests:
+    runs-on: ubuntu-latest
+    steps:
