@@ -28,3 +28,6 @@ jobs:
 
       - name: Run tests
         run: mvn test
+
+      - name: Check coverage
+        run: mvn verify
